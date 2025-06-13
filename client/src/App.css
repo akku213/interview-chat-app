@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f0fa; /* light lavender */
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  color: #4b0082; /* deep lavender/purple */
+  margin-bottom: 30px;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+video {
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  background-color: #c084fc; /* lavender button */
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #a855f7;
+}

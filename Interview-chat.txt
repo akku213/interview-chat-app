@@ -1,0 +1,54 @@
+Here’s a more detailed breakdown for the two projects you selected — suitable for an experienced React developer like you:
+
+---
+
+## 📞 **Real-Time Chat with Video**
+
+**One-liner:** Full-stack chat app with WebRTC video calls.
+
+### 🔧 Core Features:
+
+* **1-on-1 and Group Text Chat** using Socket.IO or WebSockets
+* **WebRTC Video & Audio Calling** (peer-to-peer)
+* **User Presence** (online/offline status)
+* **Typing indicators** and read receipts
+* **File sharing** (images, PDFs, etc.)
+* **Chat history** stored in MongoDB or Firebase
+* **Authentication** (JWT + role support)
+* **UI:** Clean, mobile-responsive interface with React + Tailwind
+
+### 🧠 Skills Highlighted:
+
+* WebRTC, real-time communication
+* State management (Zustand or Redux)
+* Full-stack (Express/Node, MongoDB/Firebase)
+* Media stream handling and browser APIs
+* Socket event handling & scalability
+
+---
+
+## 🗓️ **Smart Appointment Scheduler**
+
+**One-liner:** Book and manage appointments with calendar integration.
+
+### 🔧 Core Features:
+
+* **Calendar View (Day/Week/Month)** using libraries like `react-big-calendar`
+* **Timezone-aware slot booking** with availability logic
+* **User Roles:** Doctor/Admin/Patient
+* **Auto-reminders** via email (SendGrid) or SMS (Twilio)
+* **Prevent double-booking** with real-time sync
+* **Google Calendar integration** (optional)
+* **Admin dashboard** for analytics and appointment management
+
+### 🧠 Skills Highlighted:
+
+* Date/time logic and scheduling algorithms
+* REST API with Express or Firebase Functions
+* External API integrations (calendar, notifications)
+* Secure auth (JWT/OAuth)
+* Role-based UI and backend access control
+
+---
+
+Let me know if you want these turned into a portfolio case study, complete with GitHub README structure or user stories.
